@@ -80,6 +80,7 @@ html, body, main {
   }
 
   .volume {
+    padding-top: 2em;
     gap: 1em;
     width: 50%;
     height: 60%;
