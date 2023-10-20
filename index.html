@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header></header>
+    <main>
+<!-- <div id="containerId">
+</div> -->
+<div class="containerID">
+    <div class="headliner">
+        <img src="ruler.png" alt="ruler">
+        <p class="h1">Converter 
+            <br>Length</p>
+        </div>
+
+
+    <form action="" class="formBox">
+<div class="mesurement">
+    <label for=""></label>
+<!--     <select id="object">  Prøvde og lage en label som kunne skifte length til volume men det ble fort veldig kompisert i javasctipt, kansje når jeg har litt mer erfaring :)
+        <option value="volume" id="volume">Volume</option>
+        <option value="length" id="length">Length</option>
+        <option value="speed" id="speed">Speed</option>
+        <option value="temperature" id="temperature">Temperature</option>
+    </select> -->
+</div>
+
+        <input type="number" name="converter" id="myInputID">
+
+        <label for="fromUnit">From</label>
+        <select name="fromUnit" id="fromValueID">
+            <option value="mm">MM</option>
+            <option value="cm">CM</option>
+            <option value="m">M</option>
+            <option value="km">KM</option>
+            <option value="mil">MIL</option>
+        </select>
+        
+        <label for="toUnit">To</label>
+        <select name="toUnit" id="toValueID">
+            <option value="mm">MM</option>
+            <option value="cm">CM</option>
+            <option value="m">M</option>
+            <option value="km">KM</option>
+            <option value="mil">MIL</option>
+        </select>
+    </form>
+    <p class="sum" id="sum"></p>
+    <button onclick="unitConverter()" class="btn">Run</button>
+</div>
+
+
+
+
+<div class="volume">
+    <div class=headliner>
+        <img src="beaker.png" alt="beaker with boiling water">
+        <p class="h1 h2">Converter <br> Volume</p>
+    </div>
+        <form action="" class="formBox">
+            
+            <input type="number" name="converterTwo" id="myVolumeID">
+            <label for="fromUnitVolume">From</label>
+            <select name="fromUnitVolume" id="fromValueVolume">
+                <option value="ml">ml</option>
+                <option value="dl">dl</option>
+                <option value="l">L</option>
+            </select>
+            
+            <label for="toUnitVolume">To</label>
+            <select name="toUnitVolume" id="toValueVolume">
+                <option value="ml">ml</option>
+                <option value="dl">dl</option>
+                <option value="l">L</option>
+            </select> 
+        </form>
+        <p class="sum" id="sumVolume"></p>
+        <button class="btn btn2" onclick="volumeConverter()">Run</button>
+</div>
+    </main>
+    <footer></footer>
+</body>
+</html>
+

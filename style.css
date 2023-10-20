@@ -1,0 +1,120 @@
+html, body, main {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(120deg, #e23719,#1a5ca7);
+    color: white;
+}
+
+.containerID {
+    padding-top: 9em ;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.658);
+    border-radius: 20%;
+    text-shadow: 3px 3px 10px (0, 0, 0, 0.658);
+    background: linear-gradient(30deg,#1a5ca7, rgba(0,0,0,0.658));
+    margin-bottom: 20px;
+}
+
+.h1 {
+    height: 20%;
+    margin-bottom: 0px;
+    margin-top: 0.6em;
+    font-size: 2.6em;
+    font-weight: bolder;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.658);
+}
+
+.sum {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.btn {
+    font-size:18px;
+    font-family:Arial Black;
+    width:150px;
+    height:35px;
+    border-width:3px;
+    color:#fff;
+    border-color:rgba(2, 2, 14, 1);
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+    border-bottom-left-radius:40px;
+    box-shadow: 1px 0px 16px 1px rgba(0, 0, 0, 1);
+    background:rgba(51, 67, 160, 1);
+    margin-bottom: 20px;
+  }
+  
+  .btn:hover {
+    background: rgba(221, 29, 53, 1)
+  }
+       
+  .mesurement {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+  }
+
+  select {
+    font-size: 1em;
+  }
+
+  .formBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .volume {
+    gap: 1em;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.658);
+    border-radius: 20%;
+    text-shadow: 3px 3px 10px (0, 0, 0, 0.658);
+    background: linear-gradient(110deg,#1a5ca7, rgba(0,0,0,0.658));
+  }
+
+  .h2 {
+    margin-top: 0em;
+  }
+
+.volume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 10em;
+    rotate: 30deg;
+   
+}
+.headliner {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.btn2 {
+    background:rgb(36, 173, 59)
+}
